@@ -1,3 +1,7 @@
+.destination {
+    margin-top: 3rem;
+}
+
 .destination__container {
     justify-content: center;
     padding-top: 4rem;
