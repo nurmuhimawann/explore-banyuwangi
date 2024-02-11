@@ -5,3 +5,55 @@ body {
     background: #000;
     color: rgb(255, 255, 255);
 }
+
+.container {
+    max-width: 1120px;
+    margin-inline: auto;
+}
+
+.section {
+    padding-block: 7rem 2rem;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: hsla(0, 0%, 100%, 0.2);
+    padding: 1.25rem 1.5rem;
+    color: hsl(0, 0%, 95%);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: 600;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+}
+
+.button i {
+    font-size: 1.25rem;
+    transition: transform 0.4s;
+    font-weight: initial;
+}
+
+button:hover {
+    transform: translateX(0.25rem);
+}

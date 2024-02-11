@@ -1,0 +1,94 @@
+.home {
+    position: relative;
+}
+
+.home__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.home__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 980px;
+    background: linear-gradient(180deg,
+            hsla(0, 0%, 0%, 0) 58%,
+            hsl(0, 0%, 0%) 78%);
+}
+
+.home__container {
+    position: relative;
+    grid-template-columns: initial;
+    justify-content: initial;
+    row-gap: 4rem;
+    padding-top: 6.5rem;
+}
+
+.home__data {
+    text-align: initial;
+    width: 480px;
+    color: rgb(255, 255, 255);
+}
+
+.home__title {
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+    width: 800px;
+}
+
+.home__subtitle {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.home__description {
+    margin-bottom: 2.5rem;
+}
+
+.home__cards {
+    grid-template-columns: repeat(4, 260px);
+    justify-content: center;
+}
+
+.home__card {
+    position: relative;
+    overflow: hidden;
+}
+
+.home__card-img {
+    transition: transform 0.4s;
+}
+
+.home__card-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg,
+            hsla(0, 0%, 0%, 0) 50%,
+            hsl(0, 0%, 0%) 125%);
+}
+
+.home__card-title {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    font-size: 1.25rem;
+    z-index: 1;
+}
+
+.home__card:hover .home__card-img {
+    transform: scale(1.2);
+}
+
+.home__card:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
