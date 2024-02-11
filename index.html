@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <meta name="primary:email" content="muhammad.himawan73@gmail.com">
+    <title>Explore Banyuwangi</title>
 
     <!-- Bootstrap v5.3.2 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,10 +22,16 @@
     <!-- Remix Icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="assets/css/root.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/destination.css">
     <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
@@ -100,6 +108,215 @@
             </div>
         </section>
         <!-- End Home Content -->
+
+        <!-- Start Destination Content -->
+        <section class="popular section" id="popular">
+            <h2 class="section__title">The Power of <br> Majestic Banyuwangi</h2>
+            <div class="popular__container container autoplay-top">
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_de-djawatan.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">De-Djawatan</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Cluring</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_goa-sodong.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Goa Sodong</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Giri</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_pantai-boom.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Pantai Marina Boom</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Banyuwangi Kota</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_cacalan.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Cacalan</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Kalipuro</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_watu-dodol.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Grand Watu Dodol (GWD)</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Wongsorejo</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_patung-gandrung.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Patung Gandrung</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Ketapang</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_g-land.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">G-Land</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Plengkung</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_pantai-cacalan.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Pantai Cacalan</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Kalipuro</span>
+                    </div>
+                </article>
+            </div>
+            <div class="popular__container container autoplay-bottom" dir="rtl">
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_tabuhan-island.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Tabuhan Island</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Bangsring</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_baluran.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Baluran Park</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Banyuputih</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_blue-fire-ijen.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Blue Fire Ijen</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Ijen</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_lider.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Lider</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Songgon</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_raung.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Gunung Raung</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Songgon</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_savana-baluran.png" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Savana Baluran</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Banyuputih</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_sukamade.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Pantai Sukamade</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Sarongan</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_waduk-bajul-mati.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Waduk Bajul Mati</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Baluran</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_sadengan-alas-purwo.jpg" alt="popular image"
+                            class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Sadengan Alas Purwo</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Kalipait</span>
+                    </div>
+                </article>
+                <article class="popular__card">
+                    <div class="popular__image">
+                        <img src="assets/img/destination_teluk-ijo.jpg" alt="popular image" class="popular__img">
+                        <div class="popular__shadow"></div>
+                    </div>
+                    <h2 class="popular__title">Teluk Ijo</h2>
+                    <div class="popular__location">
+                        <i class="ri-map-pin-line"></i>
+                        <span>Sarongan</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- End Destination Content -->
     </main>
     <!-- End Main Content -->
 
@@ -148,10 +365,19 @@
     </footer>
     <!-- End Footer -->
 
+    <!-- JQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Bootstrap v5.3.2 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- Slick.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Script JS -->
+    <script src="assets/js/slider.js"></script>
 </body>
 
 </html>
