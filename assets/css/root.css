@@ -57,3 +57,25 @@ a {
 button:hover {
     transform: translateX(0.25rem);
 }
+
+.scrollup {
+    position: fixed;
+    right: 2rem;
+    background-color: hsla(0, 0%, 100%, .1);
+    padding: 8px;
+    display: inline-flex;
+    color: hsl(0, 0%, 95%);
+    font-size: 1.25rem;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    z-index: 10;
+    transition: bottom .4s transform .4s;
+}
+
+.scrollup:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.show-scroll {
+    bottom: 3rem;
+}

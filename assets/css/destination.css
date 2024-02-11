@@ -1,23 +1,23 @@
-.popular__container {
+.destination__container {
     justify-content: center;
     padding-top: 4rem;
 }
 
-.popular__card {
+.destination__card {
     padding: 1rem
 }
 
-.popular__image {
+.destination__image {
     position: relative;
     overflow: hidden;
     margin-bottom: 1rem;
 }
 
-.popular__img {
+.destination__img {
     transition: transform .4s;
 }
 
-.popular__shadow {
+.destination__shadow {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,12 +26,12 @@
     background: linear-gradient(180deg, hsla(0, 0%, 0%, 0)50%, hsl(0, 0%, 0%)125%);
 }
 
-.popular__title {
+.destination__title {
     font-size: 1.25rem;
     margin-bottom: .5rem;
 }
 
-.popular__location {
+.destination__location {
     display: inline-flex;
     align-items: center;
     column-gap: .25rem;
@@ -39,14 +39,14 @@
     font-weight: 500;
 }
 
-.popular__location i {
+.destination__location i {
     font-size: 1rem;
 }
 
-.popular__image:hover .popular__img {
+.destination__image:hover .destination__img {
     transform: scale(1.2)
 }
 
-.popular__image:hover {
+.destination__image:hover {
     border: 2px solid rgb(255, 255, 255);
 }
