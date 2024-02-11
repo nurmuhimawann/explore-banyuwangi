@@ -104,10 +104,6 @@
     .home__cards {
         grid-template-columns: repeat(2, 240px);
     }
-
-    .destination__container {
-        grid-template-columns: repeat(2, 240px);
-    }
 }
 
 /* For large devices */
@@ -115,41 +111,75 @@
     .footer {
         padding-block: 5rem 3rem;
     }
+
+    .footer__container {
+        width: 90%;
+    }
+
+    .footer__content {
+        flex-direction: row;
+        row-gap: 3.5rem;
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+        text-align: initial;
+    }
+
+    .footer__group {
+        display: flex;
+        align-items: center;
+        row-gap: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+
+    .footer__content .footer__data {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__container {
+        width: 100%;
+    }
 }
 
 
 @media screen and (min-width:1152px) {
-    .container {
+    /* .container {
         margin-inline: auto;
-    }
-
-    /*
+    } */
 
     .section {
         padding-block: 7rem 2rem;
     }
 
     .home__container {
+        align-items: initial;
         grid-template-columns: initial;
         justify-content: initial;
         row-gap: 4rem;
         padding-top: 6.5rem;
     }
 
-    .home__shadow {
-        height: 980px;
-    }
-
     .home__data {
+        width: 100%;
         text-align: initial;
         width: 480px;
     }
 
+    .home__title {
+        font-size: 5.5rem;
+        margin-bottom: 1rem;
+        width: 800px;
+    }
+
     .home__subtitle {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
     }
 
     .home__description {
+        text-align: initial;
         margin-bottom: 2.5rem;
     }
 
@@ -161,22 +191,4 @@
         left: 1.5rem;
         bottom: 1.5rem;
     }
-
-    .button {
-        column-gap: 1.5rem;
-    }
-
-    .destination__container {
-        grid-template-columns: repeat(3, 300px);
-        column-gap: 3rem;
-        padding-top: 4rem;
-    }
-
-    .destination__title {
-        font-size: 1.5rem;
-    }
-
-    .destination__location {
-        font-size: 1rem;
-    } */
 }
